@@ -22,6 +22,7 @@ module.exports = NodeHelper.create({
     const config = {
       username: this.config.username,
       password: this.config.password,
+      brand: 'hyundai',
       region: this.config.region,
       pin: this.config.pin,
     };
